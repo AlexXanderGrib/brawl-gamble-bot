@@ -1,0 +1,18 @@
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/dist": true
+  },
+  "cSpell.words": [
+    "bablo"
+  ],
+  "path-intellisense.mappings": {
+    "@app": "${workspaceFolder}/src/application",
+    "@configs": "${workspaceFolder}/src/configs",
+    "@domains": "${workspaceFolder}/src/domains",
+    "@shared": "${workspaceFolder}/src/shared"
+  },
+  "god.tsconfig": "./tsconfig.json"
+}

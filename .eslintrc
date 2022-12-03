@@ -1,0 +1,52 @@
+{
+  "root": true,
+  "extends": [
+    "eslint:recommended",
+    "google",
+    "prettier",
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "env": {
+    "browser": false,
+    "node": true,
+    "es6": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2020
+  },
+  "rules": {
+    "prettier/prettier": "warn",
+    "require-await": "error",
+    "require-jsdoc": "off",
+    "yoda": "error",
+    "comma-dangle": [
+      "warn",
+      "never"
+    ],
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/camel-case": "off",
+    "eqeqeq": "error",
+    "camelcase": "off",
+    "use-isnan": "warn",
+    "class-methods-use-this": "off",
+    "new-cap": [
+      "warn",
+      {
+        "capIsNew": false
+      }
+    ],
+    "@typescript-eslint/camelcase": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off"
+  },
+  "ignorePatterns": [
+    "dist/**/*"
+  ],
+  "plugins": [
+    "@typescript-eslint",
+    "prettier"
+  ]
+}
